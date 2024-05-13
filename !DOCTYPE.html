@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        section {
+            padding: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minha Página</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="inicio">
+    <h2>Início</h2>
+    <p>Bem-vindo à minha página inicial. Aqui você pode encontrar informações sobre...</p>
+</section>
+
+<section id="sobre">
+    <h2>Sobre</h2>
+    <p>Esta seção contém informações sobre mim, meu trabalho, minha história, etc.</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form action="#" method="post">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br>
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Minha Página. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
